@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> m </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    .filters {
+           display: flex;
+           margin-bottom: 20px;
+           padding: 40px;
+           text-align: center;
+           margin-bottom: 2px;
+       }
+       .filters button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            background-color: #E17E8D;
+
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .filters button.active {
+            background-color: #6666665e;
+            border: none;
+        }
+       .product {
+           margin-bottom: 30px;
+           width: fit-content;
+           background-color: #ffffff;
+           padding: 20px;
+           border-radius: 10px;
+           box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+       }
+       .product img {
+           max-width: 100%;
+           height: auto;
+           margin-bottom: 2px;
+           border-radius: 8px;
+       }
+       .headers {
+      padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    
+    align-items: center;
+    }
+</style>
+</head>
+<body style="background-color: #EBD2D6;">
+    <header class="headers">
+        <a href="user_profile.html" style="color: black;"><i  class="fa-solid fa-circle-user fa-fw" style="font-size: 5.5rem;margin-left: 20px;"></i></a>
+     <a href="index.html"><img src="photo_2024-04-28_00-27-25.jpg" width="100" height="100" alt="aa" 
+            style="float: right;margin-left: 20px; margin-right: 20px;"> </a>
+                 
+        </header>
+       
+
+    <div class="filters">
+        <a href="index.html"><button class="active">All</button></a>
+        <a href="solded_page.html"><button> Sold</button></a>
+        <div class="categories" style="flex: auto;">
+            <h2></h2>
+        </div>
+    </div>
+    <center>
+        <div class="product">
+            <a href=""></a><img src="2.jpeg" width="200" height="200">
+            <h3>Hermes Birkin Bag</h3>
+        </div>
+        <div class="product">
+            <a href=""></a><img src="3.jpeg" width="200" height="200">
+            <h3>Hermes Birkin Bluo Bag</h3>
+        </div>
+        <div class="product">
+            <a href=""></a><img src="1.jpeg" width="200" height="200"> 
+            <h3>Hermes Birkin Bag</h3>
+        </div>
+    </center>
+    <script src="js/script.js"></script>
+</body>
+</html>
